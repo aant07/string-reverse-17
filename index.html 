@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>String Changer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <h1>String Reverser</h1>
+  
+  <div>
+    <input type="text" id="textInput">
+  </div>
+  
+  <div>
+    <input type="radio" name="method" value="reverse" checked > Reverse
+    <input type="radio" name="method" value="random"> Random
+    <input type="radio" name="method" value="alphabetize"> alphabetize
+  </div>
+  
+  <div>
+    <input type="button" id="doAction" value="Change String">
+  </div>
+  
+  <div id="display"></div>
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="script.js"></script>
+  
+</body>
+</html>
+
+
